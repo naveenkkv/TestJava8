@@ -50,7 +50,7 @@ public static final String TAG = "TAG";
 
     public void testFunctionalInterfaceLambda(Person.testInterface ti){
 
-        Person p = new Person("Naveen", 31, 1);
+        Person p = new Person("Naveen Kumar", 31, 1);
 
         Log.d(TAG, "testFunctionalInterfaceLambda: " + ti.getId(p));
 
