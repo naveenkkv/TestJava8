@@ -51,7 +51,7 @@ public static final String TAG = "TAG";
     public void testFunctionalInterfaceLambda(Person.testInterface ti){
 
         Person p = new Person("Naveen Kumar", 31, 1);
-
+        int i = ti.getId(p);
         Log.d(TAG, "testFunctionalInterfaceLambda: " + ti.getId(p));
 
 
