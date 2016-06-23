@@ -25,8 +25,8 @@ public static final String TAG = "TAG";
                 return p.id;
             });
 
-            //testLambda1();
-            //testLambda2();
+            testLambda1();
+            testLambda2();
         }
         );
 
