@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity{
 public static final String TAG = "TAG";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        int i = 10;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button b = (Button)findViewById(R.id.button);
