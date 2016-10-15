@@ -17,6 +17,21 @@ public static final String TAG = "TAG";
 
 
 
+
+
+
+        /*b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });*/
+
+
+
+
+
+
         b.setOnClickListener((View v) ->
         {
             Log.d(TAG, "onCreate: onClick");
@@ -43,8 +58,8 @@ public static final String TAG = "TAG";
         Log.w(TAG, "test Lambda: ");
         Log.wtf(TAG, "WTF");
         Log.wtf(TAG, "WTF");
-
     }
+
     public void testLambda2(){
         Log.d("TAG", "testLambda2: ");
     }
