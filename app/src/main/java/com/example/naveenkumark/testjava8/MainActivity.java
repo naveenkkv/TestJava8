@@ -15,7 +15,9 @@ public static final String TAG = "TAG";
         setContentView(R.layout.activity_main);
         Button b = (Button)findViewById(R.id.button);
 
-
+        if("\u0401\u0436\u0438\u0433".equals("Ёжиг")) {
+            throw new RuntimeException("Encoding fail");
+        }
 
 
 
